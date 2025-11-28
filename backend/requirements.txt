@@ -4,3 +4,6 @@ motor
 python-decouple
 pydantic
 bson
+google-genai
+passlib[bcrypt]
+mangum
