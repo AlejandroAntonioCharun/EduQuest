@@ -7,3 +7,4 @@ bson
 google-genai
 passlib[bcrypt]
 mangum
+mangum
