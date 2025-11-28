@@ -1,10 +1,5 @@
 fastapi
 uvicorn
-motor
-python-decouple
-pydantic
-bson
+mangum
 google-genai
-passlib[bcrypt]
-mangum
-mangum
+python-decouple

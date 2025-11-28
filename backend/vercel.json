@@ -2,18 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.py",
-      "use": "@vercel/python"
+      "src": "main.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "50mb", "runtime": "python3.13" }
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/index.py"
-    }
-  ],
-  "env": {
-    "GEMINI_API_KEY": "@gemini_api_key",
-    "MONGODB_URI": "@mongodb_uri"
-  }
+    { "src": "/(.*)", "dest": "main.py" }
+  ]
 }
