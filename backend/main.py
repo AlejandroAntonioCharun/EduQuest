@@ -37,7 +37,7 @@ origins = [
     "http://localhost:3000",
     "http://localhost:5173",
     "https://eduquest.vercel.app",
-    "https://eduquest.app",  # Dominio de producción
+    "https://edu-quest-deploy.vercel.app",  # Dominio de producción
 ]
 
 app.add_middleware(
